@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6DBE44E6-DA09-4414-B8D2-8549A2E1A6CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnforcingArchitecture.API", "src\EnforcingArchitecture.API\EnforcingArchitecture.API.csproj", "{9AD27BA2-D2DB-4350-A39B-A928C3E08BB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnforcingArchitecture.UnitTests", "src\EnforcingArchitecture.UnitTests\EnforcingArchitecture.UnitTests.csproj", "{19439220-1764-46AE-8FB0-5B720E7ED429}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AD27BA2-D2DB-4350-A39B-A928C3E08BB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AD27BA2-D2DB-4350-A39B-A928C3E08BB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AD27BA2-D2DB-4350-A39B-A928C3E08BB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AD27BA2-D2DB-4350-A39B-A928C3E08BB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19439220-1764-46AE-8FB0-5B720E7ED429}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19439220-1764-46AE-8FB0-5B720E7ED429}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19439220-1764-46AE-8FB0-5B720E7ED429}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19439220-1764-46AE-8FB0-5B720E7ED429}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9AD27BA2-D2DB-4350-A39B-A928C3E08BB6} = {6DBE44E6-DA09-4414-B8D2-8549A2E1A6CA}
+		{19439220-1764-46AE-8FB0-5B720E7ED429} = {6DBE44E6-DA09-4414-B8D2-8549A2E1A6CA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE6F9C1B-E1E7-49FA-9AC8-2A58A5A808C5}
+	EndGlobalSection
+EndGlobal
